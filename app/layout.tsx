@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   authors: [{ name: 'Avixr Technologies' }],
   creator: 'Avixr Technologies Pvt Ltd',
   publisher: 'Avixr Technologies Pvt Ltd',
-  metadataBase: new URL('https://avixr.com'),
+  metadataBase: new URL('https://www.avixr.in'),
   alternates: {
     canonical: '/',
   },
