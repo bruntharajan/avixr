@@ -51,6 +51,11 @@ export const metadata: Metadata = {
   verification: {
     google: 'ETp8iTrTPnGNRys4HRlNgVe_3klk5E91sbIkhO3g8W4',
   },
+  icons: {
+    icon: '/avixrlogo.png',
+    apple: '/avixrlogo.png',
+    shortcut: '/avixrlogo.png',
+  },
 }
 
 export default function RootLayout({
@@ -61,6 +66,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="icon" href="/avixrlogo.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/avixrlogo.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400&display=swap" rel="stylesheet" />
