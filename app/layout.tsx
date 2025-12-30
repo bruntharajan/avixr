@@ -52,8 +52,13 @@ export const metadata: Metadata = {
     google: 'ETp8iTrTPnGNRys4HRlNgVe_3klk5E91sbIkhO3g8W4',
   },
   icons: {
-    icon: '/avixr-wings-logo.jpeg',
-    apple: '/avixr-wings-logo.jpeg',
+    icon: [
+      { url: '/avixr-wings-logo.jpeg', sizes: '32x32', type: 'image/jpeg' },
+      { url: '/avixr-wings-logo.jpeg', sizes: '16x16', type: 'image/jpeg' },
+    ],
+    apple: [
+      { url: '/avixr-wings-logo.jpeg', sizes: '180x180', type: 'image/jpeg' },
+    ],
     shortcut: '/avixr-wings-logo.jpeg',
   },
 }
@@ -66,8 +71,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/avixr-wings-logo.jpeg" type="image/jpeg" />
-        <link rel="apple-touch-icon" href="/avixr-wings-logo.jpeg" />
+        <link rel="icon" href="/avixr-wings-logo.jpeg" type="image/jpeg" sizes="32x32" />
+        <link rel="icon" href="/avixr-wings-logo.jpeg" type="image/jpeg" sizes="16x16" />
+        <link rel="apple-touch-icon" href="/avixr-wings-logo.jpeg" sizes="180x180" />
+        <link rel="shortcut icon" href="/avixr-wings-logo.jpeg" type="image/jpeg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400&display=swap" rel="stylesheet" />
