@@ -14,7 +14,7 @@ export default function Home() {
     '@type': 'Organization',
     name: 'Avixr Technologies Pvt Ltd',
     url: 'https://www.avixr.in',
-    logo: 'https://www.avixr.in/avixrlogo.png',
+    logo: 'https://www.avixr.in/avixr-wings-logo.jpeg',
     description: 'Avixr Technologies Pvt Ltd is a research-driven software company specializing in transforming visionary ideas into top-tier mobile and web solutions.',
     foundingDate: '2022',
     founder: {

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     description: 'Transforming visionary ideas into top-tier mobile and web solutions. Expert software development with cutting-edge technologies.',
     images: [
       {
-        url: '/avixrlogo.png',
+        url: '/avixr-wings-logo.jpeg',
         width: 1200,
         height: 630,
         alt: 'Avixr Technologies Logo',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Avixr Technologies - Digital Solutions & Software Development',
     description: 'Transforming visionary ideas into top-tier mobile and web solutions.',
-    images: ['/avixrlogo.png'],
+    images: ['/avixr-wings-logo.jpeg'],
   },
   robots: {
     index: true,
@@ -52,9 +52,9 @@ export const metadata: Metadata = {
     google: 'ETp8iTrTPnGNRys4HRlNgVe_3klk5E91sbIkhO3g8W4',
   },
   icons: {
-    icon: '/avixrlogo.png',
-    apple: '/avixrlogo.png',
-    shortcut: '/avixrlogo.png',
+    icon: '/avixr-wings-logo.jpeg',
+    apple: '/avixr-wings-logo.jpeg',
+    shortcut: '/avixr-wings-logo.jpeg',
   },
 }
 
@@ -66,8 +66,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/avixrlogo.png" type="image/png" />
-        <link rel="apple-touch-icon" href="/avixrlogo.png" />
+        <link rel="icon" href="/avixr-wings-logo.jpeg" type="image/jpeg" />
+        <link rel="apple-touch-icon" href="/avixr-wings-logo.jpeg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400&display=swap" rel="stylesheet" />
