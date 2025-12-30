@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://avixr.com',
+    url: 'https://www.avixr.in',
     siteName: 'Avixr Technologies',
     title: 'Avixr Technologies - Digital Solutions & Software Development',
     description: 'Transforming visionary ideas into top-tier mobile and web solutions. Expert software development with cutting-edge technologies.',

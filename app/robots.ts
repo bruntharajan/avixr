@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/', '/admin/'],
       },
     ],
-    sitemap: 'https://avixr.com/sitemap.xml',
+    sitemap: 'https://www.avixr.in/sitemap.xml',
   }
 }
 

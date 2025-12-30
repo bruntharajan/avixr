@@ -13,8 +13,8 @@ export default function Home() {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Avixr Technologies Pvt Ltd',
-    url: 'https://avixr.com',
-    logo: 'https://avixr.com/avixrlogo.png',
+    url: 'https://www.avixr.in',
+    logo: 'https://www.avixr.in/avixrlogo.png',
     description: 'Avixr Technologies Pvt Ltd is a research-driven software company specializing in transforming visionary ideas into top-tier mobile and web solutions.',
     foundingDate: '2022',
     founder: {
@@ -33,7 +33,7 @@ export default function Home() {
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'Customer Service',
-      url: 'https://avixr.com/#contact',
+      url: 'https://www.avixr.in/#contact',
     },
     areaServed: 'Worldwide',
     serviceType: ['Software Development', 'Web Development', 'Mobile App Development', 'Digital Solutions'],
