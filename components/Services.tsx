@@ -106,7 +106,7 @@ export default function Services() {
       description: "Beautiful, user-friendly designs that engage and convert",
     },
     {
-      icon: "⚙️",
+      icon: "/technical.png",
       title: "Technical Consulting",
       description: "Expert guidance for your technology decisions",
     },
@@ -116,12 +116,12 @@ export default function Services() {
       description: "Comprehensive learning and enterprise resource planning systems",
     },
     {
-      icon: "⚡",
+      icon: "/auto.png",
       title: "Automation",
       description: "Streamline your processes with intelligent automation",
     },
     {
-      icon: "🤖",
+      icon: "/ai.png",
       title: "AI, ML & Web3",
       description: "Next-generation technologies for future-ready solutions",
     },

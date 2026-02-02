@@ -16,7 +16,6 @@ export default function Projects() {
       name: 'Akasaperna',
       logoType: 'image',
       logo: '/img.png',
-      description: 'AKASAPRERNA',
     },
     {
       name: 'Astrosolstice',
