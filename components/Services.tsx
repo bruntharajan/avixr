@@ -101,7 +101,7 @@ export default function Services() {
       description: "Custom software solutions tailored to your needs",
     },
     {
-      icon: "🎨",
+      icon: "/la.png",
       title: "UI/UX & Graphic Designing",
       description: "Beautiful, user-friendly designs that engage and convert",
     },
