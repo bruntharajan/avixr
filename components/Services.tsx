@@ -86,12 +86,12 @@
 export default function Services() {
   const services = [
     {
-      icon: "🌐",
+      icon: "/software.png",
       title: "Web Development",
       description: "Modern, responsive websites built with cutting-edge technologies",
     },
     {
-      icon: "📱",
+      icon: "/mobile.png",
       title: "Mobile App Development",
       description: "Native and cross-platform mobile applications",
     },
@@ -126,7 +126,7 @@ export default function Services() {
       description: "Next-generation technologies for future-ready solutions",
     },
     {
-      icon: "📈",
+      icon: "/why.png",
       title: "Digital Marketing",
       description: "Data-driven strategies to boost your online presence",
     },
