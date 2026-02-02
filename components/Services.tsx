@@ -11,7 +11,7 @@ export default function Services() {
       description: 'Native and cross-platform mobile applications',
     },
     {
-      icon: '💻',
+      icon: '/Users/bruntha/avixr/public/software.png',
       title: 'Software Development',
       description: 'Custom software solutions tailored to your needs',
     },
