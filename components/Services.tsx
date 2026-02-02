@@ -11,7 +11,7 @@ export default function Services() {
       description: 'Native and cross-platform mobile applications',
     },
     {
-      icon:'public/Screenshot 2025-12-29 at 4.30.37 PM.png',
+      icon:"/software.png",
       title: 'Software Development',
       description: 'Custom software solutions tailored to your needs',
     },
