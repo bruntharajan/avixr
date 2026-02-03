@@ -96,7 +96,7 @@ export default function Services() {
       description: "Native and cross-platform mobile applications",
     },
     {
-      icon: "/software.png",
+      icon: "/soft.png",
       title: "Software Development",
       description: "Custom software solutions tailored to your needs",
     },
@@ -111,7 +111,7 @@ export default function Services() {
       description: "Expert guidance for your technology decisions",
     },
     {
-      icon: "🎓",
+      icon: "/lms.png",
       title: "LMS & ERP Solutions",
       description: "Comprehensive learning and enterprise resource planning systems",
     },
@@ -126,7 +126,7 @@ export default function Services() {
       description: "Next-generation technologies for future-ready solutions",
     },
     {
-      icon: "/why.png",
+      icon: "/digi.png",
       title: "Digital Marketing",
       description: "Data-driven strategies to boost your online presence",
     },

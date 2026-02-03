@@ -12,10 +12,13 @@ export default function About() {
               <div className="h-1 w-32 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full"></div>
             </div>
             <p className="text-lg text-gray-700 leading-relaxed max-w-4xl mx-auto mb-6">
-              Avixr Technologies Pvt Ltd is a research-driven software company founded by KV Avinash Sarma, with extensive expertise in development. We excel in transforming visionary ideas into top-tier mobile and web solutions.
+              Avixr Technologies Pvt Ltd is a research-driven software company founded by KV Avinash Sarma,
+              with extensive expertise in development. We excel in transforming visionary ideas into top-tier
+              mobile and web solutions.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed max-w-4xl mx-auto">
-              Our mission is to deliver highly efficient, scalable, and user-centric business solutions using cutting-edge technologies while adhering to the highest industry standards.
+              Our mission is to deliver highly efficient, scalable, and user-centric business solutions using
+              cutting-edge technologies while adhering to the highest industry standards.
             </p>
           </div>
 
@@ -23,8 +26,17 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Why Choose Us */}
             <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
-              <div className="text-3xl mb-4">🏆</div>
-              <h3 className="text-2xl font-bold mb-4 text-gray-900">Why Choose Us</h3>
+              <div className="mb-4">
+                <img
+                  src="/why.png"
+                  alt="Why Choose Us"
+                  className="h-12 w-12 object-contain"
+                />
+              </div>
+
+              <h3 className="text-2xl font-bold mb-4 text-gray-900">
+                Why Choose Us
+              </h3>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start">
                   <span className="text-purple-600 mr-2">•</span>
@@ -47,24 +59,43 @@ export default function About() {
 
             {/* Vision */}
             <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
-              <div className="text-3xl mb-4">🎯</div>
+              <div className="mb-4">
+                <img
+                  src="/vision.png"
+                  alt="Vision"
+                  className="h-12 w-12 object-contain"
+                />
+              </div>
+
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Vision</h3>
               <p className="text-gray-600 leading-relaxed">
-                At Avixr Technologies Pvt Ltd, we envision a world where technology empowers businesses to achieve their full potential. Our goal is to lead the industry by delivering groundbreaking digital solutions that drive innovation, foster growth, and create lasting impact.
+                At Avixr Technologies Pvt Ltd, we envision a world where technology empowers businesses to
+                achieve their full potential. Our goal is to lead the industry by delivering groundbreaking
+                digital solutions that drive innovation, foster growth, and create lasting impact.
               </p>
             </div>
 
             {/* Mission */}
             <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
-              <div className="text-3xl mb-4">💡</div>
+              <div className="mb-4">
+                <img
+                  src="/mission.png"
+                  alt="Mission"
+                  className="h-12 w-12 object-contain"
+                />
+              </div>
+
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Mission</h3>
               <p className="text-gray-600 leading-relaxed">
-                Transform Ideas into Reality - We transform innovative concepts into functional, high-quality digital solutions that create meaningful impact. Each project undergoes rigorous evaluation and refinement before moving into design and development, ensuring innovation, quality, and measurable results.
+                Transform Ideas into Reality - We transform innovative concepts into functional, high-quality
+                digital solutions that create meaningful impact. Each project undergoes rigorous evaluation
+                and refinement before moving into design and development, ensuring innovation, quality, and
+                measurable results.
               </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
