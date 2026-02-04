@@ -110,32 +110,73 @@
 // }
 const services = [
   {
-    icon: "/seo.png",
-    title: "SEO",
+    icon: '/seo.png',
+    title: 'SEO',
     description:
-      "Keyword optimization, on-page & off-page SEO, technical SEO, and link building.",
+      'Keyword optimization, on-page & off-page SEO, technical SEO, and link building.',
   },
   {
-    icon: "/ssm.png",
-    title: "SMM",
+    icon: '/ssm.png',
+    title: 'SMM',
     description:
-      "Social media strategies, content creation, audience engagement, and paid campaigns.",
+      'Social media strategies, content creation, audience engagement, and paid campaigns.',
   },
   {
-    icon: "/ppc.png",
-    title: "PPC",
+    icon: '/ppc.png',
+    title: 'PPC',
     description:
-      "Google Ads, social media advertising, retargeting, and budget optimization.",
+      'Google Ads, social media advertising, retargeting, and budget optimization.',
   },
   {
-    icon: "/conte.png",
-    title: "Content Marketing",
-    description: "Blogs, website content, videos, and email marketing",
+    icon: '/conte.png',
+    title: 'Content Marketing',
+    description: 'Blogs, website content, videos, and email marketing',
   },
   {
-    icon: "/email.png",
-    title: "Email Marketing & Automation",
+    icon: '/email.png',
+    title: 'Email Marketing & Automation',
     description:
-      "Personalized campaigns, segmentation, drip campaigns, and analytics",
+      'Personalized campaigns, segmentation, drip campaigns, and analytics',
   },
 ]
+
+export default function DigitalMarketing() {
+  return (
+    <section id="digital-marketing" className="py-20 bg-gray-50">
+      <div className="container mx-auto px-4 lg:px-8">
+        <div className="text-center mb-16">
+          <h2 className="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
+            Digital Marketing Solutions
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-6">
+            Boost Your Brand, Maximize Your Growth.
+          </p>
+          <p className="text-lg text-gray-700 max-w-4xl mx-auto">
+            In today&apos;s digital landscape, a strong online presence is crucial for business
+            success. Our comprehensive digital marketing solutions help you reach your target
+            audience, engage effectively, and drive measurable results.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {services.map((service, index) => (
+            <div
+              key={index}
+              className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow"
+            >
+              <div className="mb-4 flex justify-center">
+                <img
+                  src={service.icon}
+                  alt={service.title}
+                  className="h-12 w-12 object-contain"
+                />
+              </div>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">{service.title}</h3>
+              <p className="text-gray-600 leading-relaxed">{service.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
